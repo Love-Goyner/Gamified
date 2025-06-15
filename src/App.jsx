@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 
 const App = () => {
@@ -5,7 +6,7 @@ const App = () => {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
       <Hero/>
-      <div className="h-dvh"></div>
+      <About/>
     </main>
   );
 };
